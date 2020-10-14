@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="335" height="260" viewBox="0 0 335 260">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6df6eb;
+        opacity: 0.98;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #71f6ec;
+        fill-rule: evenodd;
+        opacity: 0.97;
+      }
+    </style>
+    <filter id="filter" x="-16" y="11" width="366" height="272" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="7" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4"/>
+      <feFlood result="flood" flood-color="#141415" flood-opacity="0.18"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Rectangle_40_copy_4" data-name="Rectangle 40 copy 4" class="cls-1" x="-1" y="19" width="335" height="241"/>
+  <path class="cls-2" d="M31,0L10,37H52L31,0"/>
+</svg>
